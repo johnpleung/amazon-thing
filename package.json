@@ -1,0 +1,29 @@
+{
+  "name": "amazon-thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "gulp && node ./dist/index.js",
+    "inspect": "gulp && node inspect ./dist/index.js",
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "jasmine": "^3.5.0",
+    "ts-node": "^8.5.4",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  }
+}
